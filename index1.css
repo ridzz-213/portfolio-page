@@ -1,0 +1,410 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.wrapper{
+    width: 1170px;
+    margin: 0 auto;
+}
+.logo{
+    width: 120px;
+    height: 100px;
+    background:red;
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+    float: left;
+    color:white;
+}
+.logo a{
+    color:white;
+    text-decoration: none;
+    
+}
+.logo ul li{
+    text-decoration: none;
+}
+header{
+    height: 100px;
+    background:black;
+    width: 100%;
+    z-index:  12;
+    position: fixed;
+    
+}
+nav{
+    float: right;
+    line-height: 100px;
+}
+ nav a{
+    margin: 0 15px;
+    color:#d2691e;
+    text-decoration: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    letter-spacing: 4px;
+}
+nav i{
+    color: #f2f2f2;
+}
+
+a:hover{
+    color:wheat;
+}
+
+
+
+.banner-area{
+    position: relative;;
+    background-image: url(myself.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+}
+/*text-area*/
+.banner-area h1{
+    text-align: left;
+    color:white;
+    padding:200px 30px 70px 150px;
+}
+.banner-area b{
+    color: #d2691e;
+}
+.banner-area p{
+    color: #f2f2f2;
+    text-align: justify;
+    font-size: 40px;
+    padding-left: 200px;
+    padding-top: 200px;
+}
+
+.about-area, .education-area, .contact-area, .blog-area, .experience-area, .skills-area{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+}
+.text-part{
+    width: 65%;
+    height: 80%;
+    color:black;
+}
+h1{
+    font-size: 50px;
+    font-family: Audiowide;
+}
+p{
+    font-size: 24px;
+    line-height: Audiowide;
+}
+.about-area h1{
+    color: #d2691e;
+}.about-area b,td{
+    color: white;
+    font-size: 23px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.about-area p{
+    color: #f2f2f2;
+    font-family: 'Courier New', Courier, monospace;
+}
+.about-area table,td{
+    border: 10px solid black;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+/*parallax*/
+.about-area{
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+
+}
+.education-area{
+    position: relative;
+    background-image: url(black.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+}
+.education-area b{
+    color: red;
+    font-size: larger;
+}
+.education-area .text-part{
+    color: white;
+    font-size: xx-large;
+}
+/*text-area*/
+h1
+{
+	color:#fff;
+	margin:40px 0 60px 0;
+	font-weight:300;
+}
+.row::after {
+        content: "";
+        clear: both;
+        display: table;
+ }
+
+.experience-area{
+    background-image:url(contact.jpg);
+}
+.our-team-main
+{
+	width:33.33%;
+	height:auto;
+	border-bottom:5px black solid;
+	background:orange;
+	text-align:center;
+	border-radius:20px;
+	overflow:hidden;
+	position:relative;
+	transition:0.5s;
+    margin-bottom:28px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+
+
+.our-team-main img
+{
+    border-radius:50%;
+	margin-bottom:20px;
+	width: 100px;
+}
+
+.our-team-main h3
+{
+	font-size:40px;
+    font-weight:700;
+    
+}
+
+.our-team-main p
+{
+	margin-bottom:0;
+}
+
+.team-back
+{
+	width:100%;
+	height:100%;
+	position: relative;
+	top:0PX;
+	padding:5px 5px 5PX 5px;
+    background:#fff;
+    text-align: center;	
+   
+    
+}
+
+
+.team-front
+{
+	width:100%;
+	height:100%;
+	position: relative;
+	z-index:10;
+	background:orange;
+	padding:15px;
+	bottom:10px;
+    transition: all 0.5s ease;
+    
+}
+
+.our-team-main:hover .team-front
+{
+	bottom:-200px;
+	transition: all 0.5s ease;
+}
+
+.our-team-main:hover
+{
+	border-color:#777;
+	transition:0.5s;
+}
+
+.skills-area{
+    position: relative;
+    background-image: url(skills.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    
+}
+.skills-area h1{
+    color: black;
+
+}
+.skills-area ul{
+    float: left;
+    font-size: 40px;
+    list-style: none;
+}
+.skills-area i{
+    size: 50px;
+    color: black;
+
+}
+.skills-area ul a{
+    text-decoration: none;
+    color: red;
+}
+.skills-area ul a:hover{
+    text-decoration: none;
+    background-color:black;
+    color: white;
+
+}
+.blog-area h1{
+    color:white;
+    text-align: center;
+    
+    
+}
+.blog-area .it{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog-area{
+    background-image: url(black.jpg);
+}
+
+
+.contact-area{
+    position: relative;
+    background-image: url(contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    text-align: center;
+    background-color: blackS;
+}
+.contact-area strong{
+    color: orangered;
+}
+.contact-area h1 b{
+    color:white;
+}
+.contact-area h2 {
+    color: #d2691e;
+}
+.contact-area ul i{
+    color: white;
+    font-size: larger;    
+}
+.contact-area p{
+    color: #d2691e;
+}
+.contact-area UL LI A:hover{
+    color: black;
+}
+.contact-area UL I{
+    color: red;
+}
+.contact-area .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    height: 20px;
+  }
+  
+.contact-area .fa:hover {
+      opacity: 0.7;
+  }
+  
+.contact-area .fa-linkedin{
+    
+    color:blue;
+  }
+  
+.contact-area .fa-google {
+    
+    color: red;
+  }
+.contact-area .fa-github {
+   
+    color: white;
+  }
+  
+.contact-area .fa-instagram {
+    
+    color:purple;
+  }
+  
+
+  
+.contact-form {
+    margin-top:70px;
+    width: 50%;
+    height: 50%;
+}
+.contact-form input{
+    width: 250px;
+    height: 25px;
+}
+.contact-form textarea{
+    width:250px ;
+    height: 200px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.border{
+    height: 2px;
+    width: 40px;
+    background: #ff9800;
+}
+ 
+.footer-bottom{
+    width: 100%;
+    background:white;
+    font-size: 20px;
+    color:black;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    position: relative;
+  
+    
+}
+@media screen and(max-width:1085px){
+    .footer-items{
+        width:50%;
+
+    }
+}
